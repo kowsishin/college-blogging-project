@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Explore more</title>
+  <style>
+  .ag-format-container {
+    width: 1142px;
+    margin: 0 auto;
+  }
+
+  body {
+    /* Add background gradient */
+    background-image: linear-gradient(225deg, #10227e 0%, #90caf9 50%, #ffffff 100%);
+      font-family: Arial, sans-serif;
+    }
+
+    .ag-courses-item_title,
+    .ag-courses-item_date-box {
+      color: #10227e; /* Dark blue */
+    }
+
+    /* Styling for course items */
+    .ag-courses_item {
+      margin: 0 15px 30px;
+      overflow: hidden;
+      border-radius: 28px;
+      transition: transform 0.3s ease-in-out;
+      background-color: lightgrey;
+      opacity: 115%;
+      padding: 20px;
+    }
+
+    .ag-courses-item_link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .ag-courses-item_bg {
+      height: 128px;
+      width: 128px;
+      background-color: lightgray;
+      opacity: 25%;
+      z-index: 1;
+      position: absolute;
+      top: -75px;
+      right: -75px;
+      border-radius: 50%;
+      transition: all 0.5s ease;
+    }
+
+    /* Dark blue glassy hover effect */
+    .ag-courses-item_link:hover .ag-courses-item_bg {
+      transform: scale(10);
+      background-color:rgba(9, 23, 171, 0.7); /* Blue with adjusted transparency */
+    }
+
+    .ag-courses-item_title {
+      min-height: 87px;
+      text-align: left;
+      margin: 0 0 25px;
+      overflow: hidden;
+      font-weight: bold;
+      font-size: 30px;
+      color: #10227e; /* Dark blue */
+      z-index: 2;
+      position: relative;
+    }
+
+    .ag-courses-item_date-box {
+      font-size: 18px;
+      color: #10227e; /* Dark blue */
+      background-color:lightgrey
+      z-index: 2;
+      position: relative;
+    }
+
+    .ag-courses-item_date {
+      font-weight: bold;
+      color: #10227e; /* Dark blue */
+      transition: color 0.5s ease;
+    }
+    /* Added style for the horizontal line */
+    .ag-courses_box {
+      border-bottom: 1px solid #ccc; /* Change the color and style as needed */
+      padding-bottom: 20px; /* Adjust spacing as needed */
+      margin-bottom: 30px; /* Adjust margin between course items */
+    }
+
+  /* Rest of the provided CSS styles here */
+
+  </style>
+</head>
+<body>
+  <div class="ag-format-container">
+    <div class="ag-courses_box">
+      <div class="ag-courses_item">
+        <a href="course.html" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+          <div class="ag-courses-item_title">
+            Course Details<hr></a>
+          </div>
+          <div class="ag-courses-item_date-box">
+            <p>course details in mjc
+          </p>
+          </div>
+        </a>
+      </div>
+      <div class="ag-courses_box">
+        <div class="ag-courses_item">
+          <a href="events.html" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"></div>
+            <div class="ag-courses-item_title">
+              Events<hr>
+            </div>
+            <div class="ag-courses-item_date-box">
+              <p>Know about all the events happening in mjc</p>
+            </div>
+          </a>
+        </div>
+        <div class="ag-courses_box">
+            <div class="ag-courses_item">
+              <a href="empower.html" class="ag-courses-item_link">
+                <div class="ag-courses-item_bg"></div>
+                <div class="ag-courses-item_title">
+                  Empowering activities<hr>
+                </div>
+                <div class="ag-courses-item_date-box">
+                  <p>Where Sports and Service Meet in NSS & Volunteer Works</p>
+                </div>
+              </a>
+            </div>
+            <div class="ag-courses_box">
+                <div class="ag-courses_item">
+                  <a href="achieve.html" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+                    <div class="ag-courses-item_title">
+                      Achievements Unlocked<hr>
+                    </div>
+                    <div class="ag-courses-item_date-box">
+                      <p>Scaling New Heights in Success and Rankings</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="ag-courses_box">
+                    <div class="ag-courses_item">
+                      <a href="ruby.html" class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                        <div class="ag-courses-item_title">
+                          Capturing Moments<hr>
+                        </div>
+                        <div class="ag-courses-item_date-box">
+                          <p> A Visual Chronicle of Memories</p>
+                        </div>
+                      </a>
+                    </div>
+      <!-- Add more course items here following the same structure -->
+    </div>
+  </div>
+</body>
+</html>
